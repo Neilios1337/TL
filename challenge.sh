@@ -1,5 +1,5 @@
 #!/bin/bash
-# Writen By Neil Delamere 01/05/2020
+# Written By Neil Delamere 01/05/2020
 mkdir ~/TrueLayer
 touch ~/TrueLayer/TLTest.txt
 echo "Date & time of run: $(date)" >> ~/TrueLayer/TLTest.txt
