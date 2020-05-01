@@ -13,7 +13,7 @@ echo "Public IP Address: $(dig +short myip.opendns.com @resolver1.opendns.com)" 
 echo >> ~/TrueLayer/TLTest.txt
 echo "Available RAM: $(sysctl -n hw.memsize)" >> ~/TrueLayer/TLTest.txt
 echo >> ~/TrueLayer/TLTest.txt
-echo "PID: $(pgrep -f challenge.sh) - Username: $(id -un)" >> ~/TrueLayer/TLTest.txt
+echo "PID: ($$) - Username: $(id -un)" >> ~/TrueLayer/TLTest.txt #ps -ef may also work for getting PID of running shell
 echo >> ~/TrueLayer/TLTest.txt
 echo "End of script" >> ~/TrueLayer/TLTest.txt
 echo "- - - - - - - - - - - - - -" >> ~/TrueLayer/TLTest.txt
